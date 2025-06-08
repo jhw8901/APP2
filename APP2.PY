@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # 모델 및 스케일러 로드
-model = joblib.load(r"C:\파이썬_depress_5fold\mental_health_model.pkl")
+model = joblib.load("mental_health_model.pkl")
 
 # 점수 계산 함수들
 def calculate_emotional_loneliness(eq1, eq2, eq3):
